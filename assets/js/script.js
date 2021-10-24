@@ -9,8 +9,6 @@ var passwordCharSet = ""
 var generateBtn = document.querySelector("#generate");
     
 var generatePassword = function() {
-    
-    console.log("hey! you clicked the button!");
 // 1. Prompt the user for the password criteria.
     //     a. password length between 8 and 128
     //     b. lowercase, uppercase, numbers, special characters 
